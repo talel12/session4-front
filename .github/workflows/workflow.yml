@@ -47,5 +47,5 @@ jobs:
                 sudo docker pull ${{ github.repository }}
                 sudo docker stop session4-front-develop
                 sudo docker rm session4-front-develop
-                sudo docker run -d -p --name session4-front-develop ${{ github.repository }}
+                sudo docker run -d --name session4-front-develop ${{ github.repository }}
                 sudo docker images prune

@@ -64,5 +64,5 @@ jobs:
                 sudo docker pull ${{ github.repository }}
                 sudo docker stop session4-front-container
                 sudo docker rm session4-front-container
-                sudo docker run -d -p 3001:3001 --name session4-front-container ${{ github.repository }}
+                sudo docker run -d -p 5001:5173 --name session4-front-container ${{ github.repository }}
                 sudo docker images prune

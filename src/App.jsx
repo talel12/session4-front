@@ -22,7 +22,7 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>Vite + React</h1>
+      <h1>Devops Session4</h1>
       <div>
         {items.map((item,i) => <h2 key={i}> {item?.name} </h2> )}
       </div>
